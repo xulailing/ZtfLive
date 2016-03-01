@@ -1,0 +1,8 @@
+已集成第三方开源组件： 
+网络请求库android-async-http 图片异步加载库universal-image-loader Sqlite数据库操作ormlite-android 社会化分享ShareSDK+短信验证码 Zxing二维码库 百度地图定位SDK 谷歌依赖注入库RoboGuice WebService调用库ksoap2 XML解析XStream 动画开源库nineoldandroids 表单验证库android-validation-komensky 更多优秀开源库等待集成... 
+
+已封装工具类： 
+HTTP网络通信工具类（ToolHTTP.java）,get/post请求，支持多种接口回调 SOAP协议通信工具类（ToolSOAP.java）,基于异步回调请求WebService接口 Sqlite数据库操作工具类（ToolDatabase.java），获取DAO、创建表、删除表等API 提示信息对话框工具类（ToolAlert.java）,已集成泡泡、土司、对话框三种提示 文件操作工具类（ToolFile.java）,assets/raw/xml/shrePerface/等文件读写API 地图定位工具类（ToolLocation.java）,读取GPS状态、请求定位、获取经纬度等方法 社会化分享工具类（ToolShareSDK.java）,各大开发平台分享API操作 短信验证码工具类（ToolMSM.java）,移动/联通/电信三网发送手机短信验证码、异步回调验证结果 字符串操作工具类（ToolString.java）,生成UUID、非空非NULL逻辑判断、生成MD5等常用共通方法 数据操作工具类（ToolData.java）,自动递归获取表单数据封装成Map、本地数据分页共通方法等 图片操作工具类（ToolPicture.java）,生成二维码、验证码、灰度、合成、圆角、水印等操作 读取本地资源工具类（ToolResource.java）,反射本地资源文件API，避免依赖R文件，方便jar形式发布 Android单位转换工具类（ToolUnit.java）,sp/dp/px互转 自定义Toast工具类（ToolToast.java）,自定义背景色、字体颜色、大小、边框等 Properties操作工具类（ToolProperties.java）,读写Properties文件操作 网络操作工具类（ToolNetwork.java）,获取网络信息、更改切换网络等相关操作 日期操作工具类（ToolDateTime.java）,获取日期、日期加减、格式化日期、日期转换等操作 XML操作工具类（ToolXml.java）,基于DOM/XMLPullPaser模式解析、生成XML操作 XMPP操作工具类（ToolXMPP.java）,基于XMPP协议的相关API操作 适配字体工具类（ToolAutoFit.java）,代码根据设备密度自动缩放View的字体大小 LOG相关工具类（ToolLog.java） 功能待续-->切入记录异常日志，并存储文件或上传至服务器 
+
+已封装/收集自定义控件： 
+兼容低版本的SwitchButton 追加自定义属性Value的CheckBox/RadioButton/RadioGroup/SingleSpinner 圆角提示信息TipsView 圆角图片RoundImageView 自定义样式风格ProgressDialog 自定义样式WebView 圆形进度条（RoundProgressBar）、垂直进度条（VerticalProgressBar） 开源优秀自定义控件：imageindicator（图片轮播/引导界面）、pulltorefresh、XListView、TableFixHeaders（水平+垂直滚动+首行+首列冻结表格）、ViewPager
